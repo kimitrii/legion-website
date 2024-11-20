@@ -1,0 +1,18 @@
+
+services:
+  website:
+    build:
+      context: .
+      dockerfile: Dockerfile.dev
+    env_file:
+      - .env
+    command: pnpm run dev
+    tty: true
+    ports:
+      - "3000:3000"
+      - "8788:8788"
+      - "8976:8976"
+    volumes:
+      - .:/usr/app
+      - /usr/app/node_modules/
+    container_name: legion-frontend
