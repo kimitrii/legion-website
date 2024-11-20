@@ -6,7 +6,7 @@ services:
       dockerfile: Dockerfile.dev
     env_file:
       - .env
-    command: pnpm run dev
+    command: pnpm run dev --ip 0.0.0.0
     tty: true
     ports:
       - "3000:3000"
