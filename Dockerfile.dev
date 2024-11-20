@@ -1,0 +1,13 @@
+FROM node:22
+
+WORKDIR /usr/app
+
+COPY package.json pnpm-lock.yaml* ./
+ENV NODE_ENV="development"
+ENV WATCHPACK_POLLING=true
+ENV NEXT_TELEMETRY_DISABLED=1
+
+RUN corepack enable pnpm && pnpm i
+
+COPY . .
+CMD [ "pnpm", "run", "dev" ]
