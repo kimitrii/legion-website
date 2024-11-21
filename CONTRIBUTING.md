@@ -10,7 +10,7 @@ Start by forking this repository to your own GitHub account.
 ### 2. Clone the Repository to Your Local Machine
 After forking, clone the repository to your local development environment:
 ```bash
-git clone https://github.com/kimitrii/legion-backend.git
+git clone https://github.com/kimitrii/legion-frontend.git
 ````
 
 ### 3. Create a Branch for Your Changes
