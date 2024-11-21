@@ -2,8 +2,6 @@ name: Pull requests tests
 
 on:
   push:
-    branches:
-      - '*'
     branches-ignore:
       - main
 jobs:
