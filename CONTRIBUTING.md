@@ -64,26 +64,26 @@ The steps below will give you a general idea of how to prepare your local enviro
 
 ### Running locally
 
-1. Click the fork button in the top right to clone the [Legion Website Repository](https://github.com/kimitrii/legion-frontend/fork)
+1. Click the fork button in the top right to clone the [Legion Website Repository](https://github.com/kimitrii/legion-website/fork)
 
 2. Clone your fork using GitHub CLI, or HTTPS.
 
    ```bash
-   git clone https://github.com/<YOUR_GITHUB_USERNAME>/legion-frontend.git # HTTPS
-   gh repo clone <YOUR_GITHUB_USERNAME>/legion-frontend # GitHub CLI
+   git clone https://github.com/<YOUR_GITHUB_USERNAME>/legion-website.git # HTTPS
+   gh repo clone <YOUR_GITHUB_USERNAME>/legion-website # GitHub CLI
    ```
 
-3. Change into the ./legion-frontend directory.
+3. Change into the ./legion-website directory.
 
    ```bash
-   cd legion-frontend
+   cd legion-website
    ```
 
 4. Create a remote to keep your fork and local clone up-to-date.
 
    ```bash
-   git remote add upstream https://github.com/kimitrii/legion-frontend.git # HTTPS
-   gh repo sync kimitrii/legion-frontend # GitHub CLI
+   git remote add upstream https://github.com/kimitrii/legion-website.git # HTTPS
+   gh repo sync kimitrii/legion-website # GitHub CLI
    ```
 
 5. Create a new branch for your work.
@@ -191,5 +191,5 @@ Once everything is approved and all discussions are approved, your contribution 
 [Commit Signing]: https://docs.github.com/en/authentication/managing-commit-signature-verification/signing-commits
 [Husky]: https://typicode.github.io/husky/
 [BiomeJs]: https://biomejs.dev
-[README.md]: https://github.com/kimitrii/legion-frontend/blob/main/README.md
-[SECURITY.md]: https://github.com/kimitrii/legion-frontend/blob/main/SECURITY.md
+[README.md]: https://github.com/kimitrii/legion-website/blob/main/README.md
+[SECURITY.md]: https://github.com/kimitrii/legion-website/blob/main/SECURITY.md
