@@ -15,4 +15,4 @@ services:
     volumes:
       - .:/usr/app
       - /usr/app/node_modules/
-    container_name: legion-frontend
+    container_name: legion-website

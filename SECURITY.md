@@ -2,7 +2,7 @@ We take security seriously and are committed to ensuring the safety of our users
 
 # Reporting a Vulnerability
 
-If you discover a security issue in the Legion, please report it privately via our [security advisories page](https://github.com/kimitrii/legion-frontend/security/advisories/new). Do not report security vulnerabilities through public channels such as GitHub issues.
+If you discover a security issue in the Legion, please report it privately via our [security advisories page](https://github.com/kimitrii/legion-website/security/advisories/new). Do not report security vulnerabilities through public channels such as GitHub issues.
 
 # Security Response
 
